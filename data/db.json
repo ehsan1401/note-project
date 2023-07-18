@@ -1,0 +1,15 @@
+{
+    "main": [
+        {
+            "name":"ehsan",
+            "age":"15",
+            "job":"programer"
+        },
+        {
+            "name":"Hossein",
+            "age":"20",
+            "job":"baker"
+
+        }
+    ]
+}
