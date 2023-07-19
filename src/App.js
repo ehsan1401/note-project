@@ -4,6 +4,7 @@ import {BrowserRouter as Router , Route , Switch} from 'react-router-dom'
 import Home from './Home';
 import AboutUs from './AboutUs';
 import Create from './Create';
+import Footer from './footer';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <AboutUs/>
         </Route>
       </Switch>
+      <Footer />
     </div>
     </Router>
   );
