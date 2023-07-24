@@ -1,7 +1,13 @@
+import { useEffect , useState} from 'react';
+import BlogList from './BlogList';
+import useFetch from './useFetch';
 const Home = () => {
+    const {data : Notes , isPending , error} = useFetch('http://localhost:8000/Notes');
     return ( 
-        <div className="home absolute py-10" style={{right:"45%"}}>
-            <h2>خالی است</h2>
+        <div className="home absolute py-10 w-full">
+        {error && <div>{error}</div>}
+        {isPending && <div>Loading...</div> }
+        {Notes && <BlogList Notes={Notes} title="یادداشت ها"/>}
         </div>
      );
 }

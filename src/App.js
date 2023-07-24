@@ -5,12 +5,13 @@ import Home from './Home';
 import AboutUs from './AboutUs';
 import Create from './Create';
 import Footer from './footer';
+import NoteDetails from './NoteDetails';
 
 
 function App() {
   return (
     <Router>
-    <div className="App text-center">
+    <div className="App text-center w-full">
       <NavigationBar />
       <Switch>
         <Route exact path="/">
@@ -21,6 +22,9 @@ function App() {
         </Route>
         <Route path="/AboutUs">
           <AboutUs/>
+        </Route>
+        <Route path="/Notes/:id">
+          <NoteDetails/>
         </Route>
       </Switch>
       <Footer />
