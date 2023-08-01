@@ -1,7 +1,7 @@
 const Footer = () => {
     return ( 
-        <div className="footer text-center">
-            <p className="absolute bottom-0 pb-5" style={{right:"45%"}}>
+        <div className="footer text-center mt-16">
+            <p className="">
                 © 2023 Ehsan Jangjo
             </p>
         </div>

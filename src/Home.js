@@ -4,7 +4,7 @@ import useFetch from './useFetch';
 const Home = () => {
     const {data : Notes , isPending , error} = useFetch('http://localhost:8000/Notes');
     return ( 
-        <div className="home absolute py-10 w-full">
+        <div className="home py-10 w-full">
         {error && <div>{error}</div>}
         {isPending && <div>Loading...</div> }
         {Notes && <BlogList Notes={Notes} title="یادداشت ها"/>}

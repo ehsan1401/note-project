@@ -20,10 +20,12 @@ const NoteDetails = () => {
         { Note && (
             <article>
                 <br />
-                <h2>{ Note.title }</h2>
-                <p>{Note.body} </p>
+                <h2 className="font-bold text-2xl mb-16 ">{ Note.title }</h2>
+                <div className=" mx-16 w-auto m-auto p-16 shadow-inner overflow-auto	">
+                    <p>{Note.body} </p>
+                </div>
                 <div>{Note.time}</div>
-                <button onClick={handleClick} className="bg-red-500 p-2 rounded-md">Delete</button>
+                <button onClick={handleClick} className="text-red-500 p-2 rounded-md hover:bg-red-500 hover:text-white transition duration-300	">Delete</button>
             </article>
         )} 
     </div>
