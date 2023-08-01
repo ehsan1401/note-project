@@ -6,3 +6,61 @@
     font-family: 'aban';
     src: url('./Fonts/W_aban.ttf');
 }
+@font-face {
+    font-family: 'lalezar';
+    src: url('./Fonts/Lalezar-Regular.ttf');
+}
+@font-face {
+    font-family: 'Armita';
+    src: url('./Fonts/A\ Armita\ Black.ttf');
+}
+@font-face {
+    font-family: 'Sina';
+    src: url('./Fonts/Far_SinaBd.ttf');
+}
+
+
+
+
+
+
+
+/* create new blog form */
+.create {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .create label {
+    font-family: 'Armita';
+    font-weight: 500;
+    text-align: right;
+    display: block;
+  }
+  .create h2 {
+    font-family: 'title';
+    font-size: 4vh;
+    color: #ffd500;
+    margin-bottom: 30px;
+  }
+
+
+  .create input, .create textarea, .create select {
+    width: 100%;
+    padding: 6px 20px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+    text-align: right;
+    font-family: 'aban';
+  }
+  .create button {
+    font-family: 'aban';
+    background: #4ee553;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
