@@ -6,10 +6,9 @@
 
 قبل از استفاده کد های زیر را در ترمینال های جداگانه وارد کنید:
 
+npm install
 
 npm run start
-
-و
 
 npx json-server --watch data/db.json --port 8000
 
